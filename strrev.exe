@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <string.h>
+#include <iostream>
+#include <algorithm>
+using namespace std;
 
 int main() {
-    char str[] = "Hello";
+    string str = "Hello";
 
-    strrev(str);
+    reverse(str.begin(), str.end());
 
-    printf("Reversed string: %s", str);
+    cout << "Reversed string: " << str;
 
     return 0;
 }
