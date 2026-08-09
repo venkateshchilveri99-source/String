@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 
 int main() {
     char names[3][20] = {
@@ -8,7 +8,7 @@ int main() {
     };
 
     for (int i = 0; i < 3; i++) {
-        printf("%s\n", names[i]);
+        cout<<names[i);
     }
 
     return 0;
